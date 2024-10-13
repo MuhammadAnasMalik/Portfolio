@@ -1,0 +1,112 @@
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ebebff;
+  margin: 0;
+  padding: 0;
+  max-width: 100% !important;
+  height: 100vh;
+}
+
+main {
+  width: 100%; 
+  max-width: 370px;
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+  position: relative;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 375px;
+  height: 48px;
+  padding: 4px 0px;
+  background-color: white;
+}
+
+.Logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6070ff;
+  margin-left: 20px;
+}
+
+.menu {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+}
+
+.Headline {
+  width: 100%;
+  max-width: 100%;
+  height: calc(100vh - 48px);
+  padding: 114px 0px;
+  background-image: url(./back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Introduction {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 50px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.paragraph{
+  position: relative;
+  margin-left: 20px;
+}
+
+.Para {
+  position: relative;
+  top: -40px;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #344563 ;
+  margin-top: 15px;
+  margin-right: 40px;
+  
+}
+
+.Lets-Connect {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #6070ff;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+
+.Social-Media {
+  width: 170px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.social_icons{
+  margin-left: -20px;
+  margin-top: -5px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin-left: -40px;
+  margin-top: -12px;
+}
