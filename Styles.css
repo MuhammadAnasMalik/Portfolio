@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Poppins', sans-serif;
-  background-color: #ebebff;
+  background-color: whitesmoke;
   margin: 0;
   padding: 0;
   max-width: 100% !important;
@@ -15,7 +15,7 @@ main {
   width: 100%; 
   max-width: 370px;
   background-color: #fff;
-  border-bottom-left-radius: 50px;
+  
   position: relative;
 }
 
@@ -110,86 +110,279 @@ ul{
   margin-left: -40px;
   margin-top: -12px;
 }
-.work {
-  width: Hug (375px)px;
-  height: Hug (2,788px)px;
-  top: 718px;
-  padding: 114px 0px 114px 0px;
-  gap: 88px;
+
+/* Main Content */
+.main-content {
+  width: 280px;
+  height: 600px;
+  margin-top: 100px;
+  margin-left: 40px;
+  padding: 16px 16px 16px 0px;
+  gap: 20px;
+  border-radius: 16px 16px 16px 16px;
+  border: 1px 1px 1px 1px;
   opacity: 0px;
+  background-color: white;
 }
 
-.card{
- box-sizing: border-box;
-
-
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 16px;
-gap: 12px;
-
-width: 327px;
-height: 552px;
-
-/* Neutrals/N0 */
-background: #FFFFFF;
-/* Neutrals/N40 */
-border: 1px solid #DFE1E6;
-border-radius: 16px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
-}
-
-.cardimage{
-  width: 295px;
+.image-container {
+  width: 250px;
   height: 220px;
+  margin-left: 23px;
+  gap: 0px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0px;
+  
+
+}
+.details-section {
+  margin-top: 10px;
+  margin-left: 23px;
+}
+.info-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.P-Title{
+  font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+margin-top: -40px;
+margin-bottom: 0px;
+}
+.project-name {
+  
+font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+
+}
+
+.span-text{
+  
+font-family: Poppins;
+font-size: 13px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+color: #7A869A;
+}
+.separator {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: #C1C7D0;
+}
+.tech-stack {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.tech-item {
+  padding: 5px 10px;
+  background-color: #EBEBFF;
+  color: #6070FF;
+  border-radius: 8px;
+}
+.view-project {
+  padding: 15px;
+  border: 1px solid #6070FF;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: #6070FF;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Personal Info */
+.personal-info {
+  margin-top: 120px;
+  background-color: white;
+  padding: 20px;
+  
+}
+.about-heading {
+ 
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+
+}
+
+.paragra{
+  
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: -1px;
+  margin-right: 10px;
+  margin-top: -30px;
+  
+
+}
+.connect-text {
+  color: #6070FF;
+  font-weight: 500;
+}
+.social-links {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: -25px;
+  gap: 15px;
+  
+}
+.resume-button {
+  padding: 15px;
+  border: 1px solid #6070FF;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: #6070FF;
+  font-weight: 700;
+  font-size: large;
+}
+.language-heading {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.language-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.language-item {
+  background: #F7F7F9;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-heading {
+width: 327px;
+height: 72px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+
+}
+
+/* Contact Section */
+.contact-section {
+    background-size: contain;
+    background-image: url(./contact\ form\ shapes-mobile@2x.png);
+    background-position: right;
+    border-top-left-radius: 100px;
+    background-color: #6070FF;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+.contact-heading {
+  margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    
+}
+.contact-message {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF; 
+  margin-top: -12px;
+  margin-left: 33px;
+  margin-right: 33px; 
+
+}
+.contact-form {
+  margin-top: 50px;
+}
+  
+.input-field {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: black;
+  width: 327px;
+  height: 48px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  border-style: hidden;
+  border-radius: 8px
+  
+  
+  
+
+;
+}
+.message-field {
+  width: 327px;
+  height: 170px;
+  gap: 0px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 20px;
+  
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color:#B3BAC5;
+
+
+}
+.submit-button {
+  margin-left: 17px;
+  margin-bottom: 50px;
+  border: 1px solid #6070FF;
+  background-color: white;
+  color: #6070FF;
+  
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  width: Hug (142px)px;
+  height: Hug (48px)px;
+  top: 5317px;
+  left: 24px;
+  padding: 12px 16px 12px 16px;
   gap: 0px;
   border-radius: 8px 8px 8px 8px;
   opacity: 0px;
 
-}
-
-.leftblock{
-  width: Hug (295px)px;
-  height: Hug (288px)px;
-  gap: 12px;
-  opacity: 0px;
-
-}
-.projectTitle{
-  width: 295px;
-  height: 36px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Poppins;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  text-align: left;
-
-}
-
-.frame{
-  width: Hug (236px)px;
-  height: Hug (32px)px;
-  gap: 12px;
-  opacity: 0px;
-
-}
-
-.client{
-  width: 55px;
-  height: 16px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Poppins;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
-  text-align: left;
 }
