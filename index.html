@@ -9,8 +9,17 @@
 <body>
     <nav class="Header">
         <h1 class="Logo">My logo</h1>
-        <img src="./Menu.svg" alt="Menu" class="menu">
+        <img src="./Menu.svg" alt="Menu" class="menu" id="open-menu">
     </nav>
+
+     <div class="mobile-menu" id="mobile-menu">
+        <span class="close-menu" id="close-menu">&times;</span>
+        <ul class="mobile-menu-options">
+            <li data-target="section-portfolio">Portfolio</li>
+            <li data-target="section-about">About</li>
+            <li data-target="section-contact">Contact</li>
+        </ul>
+    </div>
 
     <main class="Headline">
         <h1 class="Introduction">I'm Anas Malik. Glad to see you!</h1>
@@ -161,6 +170,7 @@
         </div>
     </section>
     
+    
     <section class="contact-section">
         <div class="contact-heading">
             <p>Contact me</p>
@@ -173,5 +183,6 @@
             <input type="submit" value="Get in touch" class="submit-button">
         </form>
     </section>
+    <script src="midlab.js"></script>
     </body>
 </html>

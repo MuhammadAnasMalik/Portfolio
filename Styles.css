@@ -1,5 +1,6 @@
 /* Importing the Poppins font from Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+/* General Body Styling */
 body {
   display: flex;
   flex-direction: column;
@@ -7,7 +8,7 @@ body {
   background-color: whitesmoke;
   margin: 0;
   padding: 0;
-  max-width: 100% !important;
+  max-width: 100%;
   height: 100vh;
 }
 
@@ -15,7 +16,6 @@ main {
   width: 100%; 
   max-width: 370px;
   background-color: #fff;
-  
   position: relative;
 }
 
@@ -66,7 +66,8 @@ main {
   margin-top: -20px;
   margin-left: 20px;
 }
-.paragraph{
+
+.paragraph {
   position: relative;
   margin-left: 20px;
 }
@@ -77,10 +78,9 @@ main {
   font-size: 16px;
   font-weight: 400px;
   line-height: 24px;
-  color: #344563 ;
+  color: #344563;
   margin-top: 15px;
   margin-right: 40px;
-  
 }
 
 .Lets-Connect {
@@ -92,23 +92,54 @@ main {
   margin-left: 20px;
 }
 
-.Social-Media {
-  width: 170px;
-  height: auto;
-  margin-left: 20px;
-  margin-top: 12px;
-}
-.social_icons{
+.social_icons {
   margin-left: -20px;
   margin-top: -5px;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   gap: 8px;
   margin-left: -40px;
   margin-top: -12px;
+}
+
+/* Mobile Menu Styling */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Black transparent background */
+  color: white;
+  display: none; /* Hidden by default */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.mobile-menu-options {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-options li {
+  font-size: 24px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.close-menu {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: white;
 }
 
 /* Main Content */
@@ -386,3 +417,80 @@ text-align: left;
   opacity: 0px;
 
 }
+
+/* Mobile menu styles */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9); /* Black transparent background */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.mobile-menu-options {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu-options li {
+  font-size: 24px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.close-menu {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+
+/* CSS for Body, Header, etc. remains unchanged */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Black transparent background */
+    color: white;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.mobile-menu-options {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.mobile-menu-options li {
+    font-size: 24px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.close-menu {
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: white;
+}
+
